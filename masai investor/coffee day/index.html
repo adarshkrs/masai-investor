@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>coffee</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+      body {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+      P {
+        width: 70%;
+        line-height: 18px;
+
+        color: rgb(160, 161, 161);
+        text-align: center;
+        margin: auto;
+        margin-top: 40px;
+      }
+      .coffee {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 150px);
+        gap: 35px;
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        margin-top: 40px;
+      }
+      .coffee > div {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+      .coffee > div > h2 {
+        color: rgb(34, 34, 34);
+        width: 45%;
+      }
+      .coffee > div > h1 {
+        color: rgb(182, 136, 52);
+        width: 165%;
+        margin-top: -45px;
+        font-size: 20px;
+        margin-left: 26px;
+      }
+      /* Medium Screen */
+      @media only screen and (min-width: 500px) and (max-width: 768px) {
+        .coffee {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      /* Small Screen */
+      @media only screen and (min-width: 0px) and (max-width: 499px) {
+        .coffee {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="coffee">
+      <div>
+        <h2>Cappuccino</h2>
+        <h1>$49</h1>
+        <p>
+          Usage of the internet is becoming more common due to rapid adavance
+        </p>
+      </div>
+      <div>
+        <h2>Americano</h2>
+        <h1>$49</h1>
+        <p>
+          Usage of the internet is becoming more common due to rapid adavance
+        </p>
+      </div>
+      <div>
+        <h2>Espresso</h2>
+        <h1>$49</h1>
+        <p>
+          Usage of the internet is becoming more common due to rapid adavance
+        </p>
+      </div>
+      <div>
+        <h2>Macchiato</h2>
+        <h1>$49</h1>
+        <p>
+          Usage of the internet is becoming more common due to rapid adavance
+        </p>
+      </div>
+      <div>
+        <h2>Mocha</h2>
+        <h1>$49</h1>
+        <p>
+          Usage of the internet is becoming more common due to rapid adavance
+        </p>
+      </div>
+      <div>
+        <h2>Coffee Latte</h2>
+        <h1>$49</h1>
+        <p>
+          Usage of the internet is becoming more common due to rapid adavance
+        </p>
+      </div>
+      <div>
+        <h2>Piccolo Latte</h2>
+        <h1>$49</h1>
+        <p>
+          Usage of the internet is becoming more common due to rapid adavance
+        </p>
+      </div>
+      <div>
+        <h2>Ristretto</h2>
+        <h1>$49</h1>
+        <p>
+          Usage of the internet is becoming more common due to rapid adavance
+        </p>
+      </div>
+      <div>
+        <h2>Affogato</h2>
+        <h1>$49</h1>
+        <p>
+          Usage of the internet is becoming more common due to rapid adavance
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
